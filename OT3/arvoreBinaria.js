@@ -67,7 +67,7 @@ class ArvoreBinaria {
     }
 }
 
-// 🔥 Testando a implementação
+// Testando a implementação
 const arvore = new ArvoreBinaria();
 arvore.inserir(10);
 arvore.inserir(5);
@@ -96,8 +96,6 @@ arvore.postOrder(); // Saída: 2 7 5 12 20 15 10
 
  * 
  * 
- *  A complexidade dos percursos In-Order, Pre-Order e Post-Order é:
-
-O(n)
-➡️ Porque visitamos cada nó uma única vez
+ *  A complexidade dos percursos In-Order, Pre-Order e Post-Order é: O(n)
+Porque visitamos cada nó uma única vez
  */
